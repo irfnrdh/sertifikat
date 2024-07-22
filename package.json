@@ -1,0 +1,22 @@
+{
+  "name": "sertifikat.js",
+  "version": "1.0.0",
+  "description": "A library to generate HTML content from JSON schema with Tailwind CSS",
+  "main": "sertifikat.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfnrdh/sertifikat.git"
+  },
+  "keywords": [
+    "\"html\""
+  ],
+  "author": "Irfanur Diah (@irfnrdh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irfnrdh/sertifikat/issues"
+  },
+  "homepage": "https://github.com/irfnrdh/sertifikat#readme"
+}

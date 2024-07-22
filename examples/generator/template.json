@@ -1,0 +1,171 @@
+{
+    "template":
+        {
+            "name": "default",
+            "identity": "default",
+            "author": "Irfannur Diah",
+            "dev": "irfnrdh",
+            "Description":"General Certificate",
+            "tags" : [ "classic","landscape","A4"],
+            "version" : 1.0
+        },
+    "settings": [
+      {
+        "width": 1080,
+        "height": 1080,
+        "safearea": "20px",
+        "background": "/assets/background.png",
+        "size": [
+                    { "papersize": "A4" },
+                    { "orientation": "portrait" }
+                ],
+        "elements": [
+                    {
+
+                    }
+        ],
+        "fonts": [
+            {
+                "fontFamily": "Playfair",
+                "url": "https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+            },
+            {
+                "fontFamily": "Monserrat",
+                "url": ""
+            },
+            {
+                "fontFamily": "Monserrat",
+                "url": ""
+            }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "name": "logo",
+        "type": "image",
+        "value": "logo.png",
+        "visible": true,
+        "style": "absolute top-20 left-1/2 transform -translate-x-1/2 w-1/2 border "
+      },
+      { "name": "judul",
+        "type": "text",
+        "value": "Piagam haha",
+        "visible": true,
+        "style": "absolute top-40 left-1/2 transform -translate-x-1/2 w-full border text-center"
+      },
+      {
+        "name": "text#01",
+        "type": "text",
+        "value": "Dengan bangga kita berikan kepada:",
+        "visible": true,
+        "style": "absolute top-60 left-1/2 transform -translate-x-1/2 w-full border text-center text-4xl"
+      },
+      {
+        "name": "partisipasi",
+        "type": "text",
+        "value": "Atas partisipasinya sebagai",
+        "visible": true,
+        "style" : null
+      },
+      { "name": "grade",
+        "type": "text",
+        "value": "Ketua Pembimbing",
+        "visible": true,
+        "style" : null
+      },
+      {
+        "name": "date",
+        "type": "text",
+        "value": "Kelender Akademik Sesi 2024/2025",
+        "visible": true,
+        "style" : null
+      },
+      { "name": "qr_code",
+        "type": "qr",
+        "value": "akubisa!",
+        "visible": true,
+        "style" : null
+      }
+    ],
+    "attributes": [
+      {
+        "name": "Credential ID",
+        "type": "text",
+        "value": "certificate.id",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Issuer Name",
+        "type": "text",
+        "value": "issuer.name",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Group Name",
+        "type": "text",
+        "value": "group.name",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Expiry Date",
+        "type": "date",
+        "value": "certificate.expired_on",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Issue Date",
+        "type": "date",
+        "value": "certificate.issued_on",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Recipient Name",
+        "type": "text",
+        "value": "recipient.name",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Credential UUID",
+        "type": "text",
+        "value": "certificate.uuid",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Issuer Support Email",
+        "type": "email",
+        "value": "issuer.support_email",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Recipient Email",
+        "type": "email",
+        "value": "recipient.email",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "Issuer Email",
+        "type": "email",
+        "value": "issuer.email",
+        "style": null,
+        "status": true
+      },
+      {
+        "name": "QR Code Identity",
+        "type": "qrcode",
+        "value": "certificate.uuid",
+        "style": null,
+        "status": true
+      }
+    ],
+    "signatories": []
+}
